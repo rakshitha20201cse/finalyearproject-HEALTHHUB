@@ -1,0 +1,64 @@
+/* Style for the product section */
+#product {
+  padding: 20px;
+}
+
+/* Style for the heading */
+.heading h2 {
+  font-size: 24px;
+  text-align: center;
+}
+
+/* Style for the product row */
+.product-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style for the individual product box */
+.box {
+  width: 300px;
+  margin: 10px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Style for the product image */
+.img img {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* Style for the product content */
+.product-content {
+  color: #333;
+}
+
+.product-content h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.product-content h5 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.product-content hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+.product-content b {
+  font-weight: bold;
+}
+
+.product-content p {
+  margin: 5px 0;
+}

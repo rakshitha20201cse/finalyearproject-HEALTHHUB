@@ -1,0 +1,50 @@
+label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  h1 {
+      border: 2px solid black;
+    }
+    
+    p {
+      border: 1px dashed blue;
+    }
+    
+    button {
+      border: 3px dotted red;
+    }
+    
+    img {
+      width:50%; /* Adjust the width to your preference */
+      height:30%;
+      border-radius: 10px; /* Add rounded corners to the image */
+      box-shadow: 0 0 5px rgba(19, 18, 18, 0.3); /* Add a subtle shadow */
+      text-align:center;
+      display: inline-block;
+    }
+    
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"],
+  input[type="time"] {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
